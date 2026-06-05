@@ -39,10 +39,9 @@ public class Query2 {
 
         long t1 = System.currentTimeMillis();
 
-        // Affichage console pour vérification
         result.show();
 
-        // Sauvegarde au propre
+        // Save the data
         result.coalesce(1)
             .write()
             .option("header", "true")

@@ -50,7 +50,6 @@ public class Query3 {
 
         long t1 = System.currentTimeMillis();
 
-        // Affichage console pour vérification
         results.show();
         delay.show();
 

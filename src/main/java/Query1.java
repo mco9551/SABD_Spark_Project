@@ -62,6 +62,8 @@ public class Query1 {
         long t1 = System.currentTimeMillis();
 
         result.show();
+        
+        //Save the data
         result.coalesce(1)
             .write()
             .option("header", "true")
